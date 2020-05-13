@@ -1,4 +1,4 @@
 <?php
-$command="/sbin/ifconfig";
-exec($command, $output);
+$output = shell_exec('ifconfig');
+echo "<pre>$output</pre>";
 ?>
