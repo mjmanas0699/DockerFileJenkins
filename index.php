@@ -1,4 +1,7 @@
 <?php
-$output = shell_exec('ifconfig');
-echo "<pre>$output</pre>";
+
+// Show all information, defaults to INFO_ALL
+phpinfo();
+
 ?>
+
